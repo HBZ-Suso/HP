@@ -2,14 +2,14 @@ var impressumBlockComponent = {
     data () {
         return {
             person_list: [
-                {name: "N. Zumbusch", function: "Webdev & Orgateam", image: "./assets/img/HBZ-Logo.png", link: "/forum/?userName=NathanZumbusch"},
-                {name: "D. Jansen", function: "Leitung des HBZ", image: "./assets/img/HBZ-Logo.png", link: "/forum/?userName=DavidJansen"},
-                {name: "P. Hartleitner", function: "Schulleitung", image: "./assets/img/HBZ-Logo.png", link: "https://suso.schulen.konstanz.de/HP/"},
-                {name: "Maxim", function: "Orgateam", image: "./assets/img/HBZ-Logo.png", link: "/forum/?userName=Maxim"},
-                {name: "Hannah", function: "Orgateam", image: "./assets/img/HBZ-Logo.png", link: "/forum/?userName=Hannah"},
-                {name: "Meret", function: "Orgateam", image: "./assets/img/HBZ-Logo.png", link: "/forum/?userName=Meret"},
-                {name: "David", function: "Orgateam", image: "./assets/img/HBZ-Logo.png", link: "/forum/?userName=David"},
-                {name: "Pia", function: "Orgateam", image: "./assets/img/HBZ-Logo.png", link: "/forum/?userName=Pia"}
+                {name: "N. Zumbusch", function: "Webdev & Orgateam", image: "/HP/assets/img/HBZ-Logo.png", link: "/forum/?userName=NathanZumbusch"},
+                {name: "D. Jansen", function: "Leitung des HBZ", image: "/HP/assets/img/HBZ-Logo.png", link: "/forum/?userName=DavidJansen"},
+                {name: "P. Hartleitner", function: "Schulleitung", image: "/HP/assets/img/HBZ-Logo.png", link: "https://suso.schulen.konstanz.de/HP/"},
+                {name: "Maxim", function: "Orgateam", image: "/HP/assets/img/HBZ-Logo.png", link: "/forum/?userName=Maxim"},
+                {name: "Hannah", function: "Orgateam", image: "/HP/assets/img/HBZ-Logo.png", link: "/forum/?userName=Hannah"},
+                {name: "Meret", function: "Orgateam", image: "/HP/assets/img/HBZ-Logo.png", link: "/forum/?userName=Meret"},
+                {name: "David", function: "Orgateam", image: "/HP/assets/img/HBZ-Logo.png", link: "/forum/?userName=David"},
+                {name: "Pia", function: "Orgateam", image: "/HP/assets/img/HBZ-Logo.png", link: "/forum/?userName=Pia"}
             ],
             containerStyle: {
                 marginTop: "min(14vw, 80px)",

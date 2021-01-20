@@ -5,12 +5,12 @@ var sideBarComponent = {
     data () {
         return {
             link_elements: [
-                {title: "Home", link: "./"},
+                {title: "Home", link: "/HP/"},
                 {title: "Grundschulprojekt \"Kopfrechnen\"", link: "/calc/"},
                 {title: "HBZ-Projektwoche", link: "/projektwoche"},
                 {title: "Snap!-AG", link: "/forum/?user=snap!-ag"},
                 {title: "Orga-Team", link: "/forum/?user=orga-team"},
-                {title: "Offizielle Homepage", link: "https://www.suso.schulen.konstanz.de./hbz"},
+                {title: "Offizielle Homepage", link: "https://www.suso.schulen.konstanz.de/HP/hbz"},
                 {title: "Forum", link: "/forum/"},
                 {title: "Ehemalige", link: "/forum/?user=Ehemalige"}
             ],
@@ -49,7 +49,7 @@ var sideBarComponent = {
                 cursor: "pointer",
                 borderRadius: "0px 0px 15px 0px"
             },
-            logoSrc: "./assets/img/HBZ-Logo.png",
+            logoSrc: "/HP/assets/img/HBZ-Logo.png",
             show_list: false,
             hovered: "none",
             show_logo: true,
